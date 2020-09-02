@@ -1,0 +1,35 @@
+.task {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    min-height: 40px;
+    min-width: 90%;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #81C784;
+}
+
+.name {
+    font-size: larger;
+    color: #455A64;
+}
+
+.timeAndBtns {
+    align-self: start;
+    justify-self: end;
+    padding: 3px;
+}
+
+.time {
+    padding-right: 15px;
+    font-size: 15px;
+    color: #616161;
+}
+
+.btn {
+    font-size: large;
+    color: #FFB74D;
+}
